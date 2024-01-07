@@ -16,7 +16,7 @@ I looped through each key in the JSON file and added the win data for every subk
 
 After adding all the win data to the temp array, the code inserts a null value into the temp array based on which iteration of the outer loop it is currently on.
 For example, if it is on iteration 1 it will insert a null value into index 1 of the temporary array. "BRO" is the first key, and the first team at the head of the table a team cannot play itself.
-The Count is then incremented by 1 after the inner loop ends and the temporary array is added to the mydata array (matrix). 
+The count is then incremented by 1 after the inner loop ends and the temporary array is added to the mydata array (matrix). 
 The temp array is then cleared for the next iteration of the outer loop.
 
 After the outer loop is finished, mydata is complete. I used the tabulate library to make the data more presentable in a printable format.
