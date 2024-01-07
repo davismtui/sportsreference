@@ -8,7 +8,7 @@ The JSON file is a list of alphabetically arranged unique team keys that corresp
 Knowing this I iterated through each key and added it to an array called "list_of_teams" This list contains each unique team name. This is the head of the matrix to be built.
 "mydata" is initialized as an array that will hold other arrays at each of its indices, i.e. a matrix.
 
-From there I initialized a temporary array called "temp_array" This array is going to be filled with the data of each row in the matrix.
+From there, I initialized a temporary array called "temp_array." This array is going to be filled with the data of each row in the matrix.
 I also initialized a counter to keep track of which columns need null values.
 
 ## Iterating
